@@ -1,0 +1,32 @@
+# Agent configurations
+agents:
+  default:
+    chain: "0g"
+    gas_per_agent: 0.003
+    max_concurrent: 10
+
+  domains:
+    crypto:
+      focus: "cryptocurrency markets, DeFi protocols, blockchain ecosystem"
+      risk_preference: "balanced"
+      evidence_threshold: 3
+      confidence_minimum: "medium"
+      
+    sports:
+      focus: "professional sports outcomes, player performance"
+      risk_preference: "conservative"
+      evidence_threshold: 4
+      confidence_minimum: "medium"
+      
+    macro:
+      focus: "macroeconomic events, central bank decisions, geopolitics"
+      risk_preference: "conservative"
+      evidence_threshold: 5
+      confidence_minimum: "high"
+
+# Swarm settings
+swarm:
+  ensemble_min_agents: 3
+  disagreement_threshold: 0.4
+  memory_share_threshold: 0.7
+  max_memory_per_agent: 100

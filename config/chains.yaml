@@ -1,0 +1,23 @@
+# Chain configurations
+chains:
+  0g:
+    chain_id: 16661
+    rpc_urls:
+      - "https://evmrpc.0g.ai"
+      - "https://0g-evmrpc.stakeme.pro"
+      - "https://og-evmrpc.itrocket.net"
+    contracts:
+      identity_registry: "0x8004Ae533a0301CbD7508373b663756D26DfB028"
+      agent_binding: "0x61bb71442749d13a4BB7257DfBFFf0452ae937f9"
+    explorer: "https://chainscan-newton.0g.ai"
+
+  solana:
+    rpc_urls:
+      - "https://api.mainnet-beta.solana.com"
+    cluster: "mainnet-beta"
+
+  ethereum:
+    chain_id: 1
+    rpc_urls:
+      - "https://eth.llamarpc.com"
+      - "https://rpc.ankr.com/eth"
